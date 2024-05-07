@@ -4,6 +4,8 @@ This document serves to detail any findings from data in the `data` folder. All 
 
 ## Age
 
+### Average Age of Bakers Per Series
+
 Investigating the average age of bakers reveals the following chart.
 
 ![Chart of Average Age of Bakers Per Series](figures/ages.png)
@@ -19,7 +21,7 @@ It would seem a pretty straight forward conclusion that the number of Star Baker
 
 This assumption seems pretty well established from the chart. However, this correlation is not perfect as seen in the discrepency between the winners and runner-ups averages. 
 
-Also one thing to note is the 12th place Star Baker row is currently useful, as the current show format does not allow 12th place bakers to also recieve a Star Baker. 
+> Note that the 12th place Star Baker row is currently not useful, as the current show format does not allow 12th place bakers to also recieve a Star Baker. 
 
 ### Average Finish Place Per Star Baker Week
 
