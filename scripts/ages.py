@@ -31,3 +31,14 @@ ax.set_ylabel("Series")
 ax.set_xlabel("Age")
 ax.set_title("Average Age of Bakers Per Series")
 plt.savefig("figures/ages.png")
+
+labels = [key for key in agesSeries.keys()]
+labels.sort(key=lambda key: agesSeries[key] / seriesTotals[key])
+agesValues = [agesSeries[key] / seriesTotals[key] for key in labels]
+
+fig, ax = plt.subplots()
+ax.barh(labels, agesValues)
+ax.set_ylabel("Series")
+ax.set_xlabel("Age")
+ax.set_title("Average Age of Bakers Per Series (Sorted)")
+plt.savefig("figures/agesSorted.png")

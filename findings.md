@@ -6,15 +6,31 @@ This document serves to detail any findings from data in the `data` folder. All 
 
 ### Average Age of Bakers Per Series
 
-Investigating the average age of bakers reveals the following chart.
+Investigating the average age of bakers reveals the following charts.
 
 ![Chart of Average Age of Bakers Per Series](figures/ages.png)
 
-This shows that the maximum average age was from Series 5, and the minimum was from Series 10.
+
+![Chart of Average Age of Bakers Per Series](figures/agesSorted.png)
+
+This shows that the maximum average age was from **Series 5**, and the minimum was from **Series 10**.
+
+### Average Age Per Finish Place
+
+Generally, it would appear that with age comes more experience. So it would be expected that the older the baker, the better the finish place.
+
+![Average Age Per Finish Place](figures/avgAgePerFinishPlace.png)
+
+This assumption does not appear to be directly supported by the given results. In fact, the opposite of that claim appears to be somewhat indicated.
+
+![Average Age Per Finish Place (Sorted)](figures/avgAgePerFinishPlaceSorted.png)
+
+The average ages for the finish places of **Winner**, **Runner-up**, **11th**, and **10th** seem to support this opposite claim. However, the finish places of **12th** and **6th** contradict the claim, so this correlation is fully sound.
 
 ## Star Bakers
 
 ### Average Number of Star Bakers Per Finish Place
+
 It would seem a pretty straight forward conclusion that the number of Star Bakers per contestant correlates with a better finishing place. Investigating this directly shows the following results.
 
 ![Chart of Average Number of Star Bakers Per Finish Place](figures/starBakerAvgPerFinish.png)
