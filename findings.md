@@ -25,7 +25,7 @@ This assumption does not appear to be directly supported by the given results. I
 
 ![Average Age Per Finish Place (Sorted)](figures/avgAgePerFinishPlaceSorted.png)
 
-The average ages for the finish places of **Winner**, **Runner-up**, **11th**, and **10th** seem to support this opposite claim. However, the finish places of **12th** and **6th** contradict the claim, so this correlation is fully sound.
+The average ages for the finish places of **Winner**, **Runner-up**, **11th**, and **10th** seem to support this opposite claim. However, the finish places of **12th** and **6th** contradict the claim, so this correlation is not fully sound.
 
 ## Star Bakers
 
